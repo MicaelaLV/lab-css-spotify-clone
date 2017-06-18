@@ -18,12 +18,14 @@ body {
   font-family: 'Lato', sans-serif;
   color: #1A1A1A;
   font-size: 20px;
+  margin: 0 auto;
 }
 
 .nav-container {
   background-color: white;
   position: fixed;
   top: 0px;
+  left: 0px;
   height: 80px;
   width: 100vw;
 
@@ -46,9 +48,36 @@ div.li-right {
   padding-right: 20px;
 }
 
-div.jumbotron {
-  background: url("images/landing.jpg")no-repeat center center;
+div.landing {
+  background: url("../images/landing.jpg")no-repeat center;
   background-size: cover;
-  height: 800px;
+  height: 900px;
   width: 100vw;
+}
+
+div.landing h1 {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 700;
+  position: relative;
+  top: 30%;
+  left: 0%;
+  text-align: center;
+}
+
+div.landing p {
+  color: #fff;
+  font-size: 28px;
+  text-align: center;
+  position: relative;
+  top: 28%;
+  line-height: 10px;
+}
+
+div.h-container {
+  position: relative;
+  top: 10%;
+  left: 0%;
+  text-align: center;
+  /*border-bottom: 3px solid #00B172;*/
 }
